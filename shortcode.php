@@ -1,6 +1,7 @@
 <?php
-add_shortcode( 'lc_testimonial', 'lc_testimonial_shortcode' );
-function lc_testimonial_shortcode(){
+/* Use shortcode ['dwk_testimonial'] */
+add_shortcode( 'dwk_testimonial', 'dwk_testimonial_shortcode' );
+function dwk_testimonial_shortcode(){
    ob_start(); ?>
 
   <!-- HTML code here -->
