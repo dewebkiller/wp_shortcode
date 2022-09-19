@@ -1,0 +1,1 @@
+gh repo clone dewebkiller/wp_shortcode
