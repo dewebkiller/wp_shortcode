@@ -1,7 +1,11 @@
-# Standard shortcode code in WordPress 
+dd_shortcode( 'dwk_testimonial', 'dwk_testimonial_shortcode' );
+function dwk_testimonial_shortcode(){
+   ob_start(); ?>
 
-<<<<<<< HEAD
-Use shortcode [dwk_testimonial]
-=======
-Use shortcode [dwk_testimonial]
->>>>>>> ca384698b72dfc52e9b690752b2c0f5c18037b35
+  <!-- HTML code here -->
+   
+   <?php
+   $output = ob_get_contents();  
+   ob_get_clean();
+   return $output;
+}
